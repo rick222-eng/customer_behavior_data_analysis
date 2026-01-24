@@ -1,163 +1,49 @@
-Data Analysis Project
-Overview
+📌 Project Overview
+The goal of this project is to simulate a corporate-grade end-to-end data analytics workflow, demonstrating the ability to translate raw data into strategic business intelligence by:
 
-This project demonstrates an end-to-end data analysis workflow using Python, SQL, and visualization tools. It covers data loading, exploratory data analysis (EDA), data cleaning and transformation, SQL-based analysis using PostgreSQL, and the creation of interactive dashboards and presentation-ready reports.
+✅ Data Preparation,Modeling & Exploratory Data Analysis (Python): Clean and transform the raw dataset for analysis.
 
-The goal of this project is to extract meaningful insights from raw data and present them in a clear, business-friendly format.
+✅ Data Analysis (SQL): Simulate business transactions, and run queries to extract insights on customer segments, loyalty, and purchase drivers.
 
-Tools & Technologies
+✅ Visualization & Insights (Power BI): Build an interactive dashboard that highlights key patterns and trends, enabling stakeholders to make data-driven decisions.
 
-Python (Data Analysis & Processing)
+✅ Report and Presentation: Write a clear project report summarizing your key findings and business recommendations. Prepare a presentation that visually communicates insights and actionable recommendations to stakeholders.
 
-pandas
-
-numpy
-
-matplotlib / seaborn
-
-PostgreSQL (SQL querying and analysis)
-
-SQL (Data extraction and aggregation)
-
-Interactive Dashboards
-
-Power BI / Tableau / Plotly (as applicable)
-
-Gamma AI
-
-Automated presentation (PPT) generation
-
-Jupyter Notebook
-
-Git & GitHub
-
-Dataset
-
-The dataset is loaded using Python.
-
-It contains structured data suitable for analysis and visualization.
-
-Key steps applied:
-
-Handling missing values
-
-Removing duplicates
-
-Data type corrections
-
-Feature transformation and normalization
-
-Dataset source and description can be added here if public.
-
-Data Analysis Workflow
-
-Data Loading
-
-Import dataset using Python.
-
-Exploratory Data Analysis (EDA)
-
-Summary statistics
-
-Distribution analysis
-
-Correlation analysis
-
-Data Cleaning
-
-Missing value treatment
-
-Outlier handling
-
-Data Transformation
-
-Feature engineering
-
-Data formatting for SQL and dashboards
-
-SQL Analysis
-
-Load cleaned data into PostgreSQL
-
-Run analytical SQL queries for insights
-
-Dashboards
-
-Interactive dashboards were built to visualize key metrics and trends.
-
-Features include:
-
-Filters and slicers
-
-KPI tracking
-
-Trend and comparison charts
-
-Designed for both technical and non-technical stakeholders.
-
-Results & Insights
-
-Identified key patterns and trends within the data.
-
-Generated actionable insights supported by visualizations and SQL queries.
-
-Findings were summarized into a professional presentation using Gamma AI.
-
-Presentation & Reporting
-
-A structured presentation (PPT) was created using Gamma AI.
-
-Includes:
-
-Problem statement
-
-Methodology
-
-Key insights
-
-Visual summaries
-
-Final conclusions
-
-How to Run the Project
-
+🛠️ How to Use This Project
 Clone the repository
 
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/amlanmohanty1/customer-trends-data-analysis-SQL-Python-PowerBI.git
+cd customer-trends-data-analysis-SQL-Python-PowerBI
+Open Customer_Shopping_Behavior_Analysis.ipynb notebook
 
+This file contains:
 
-Install dependencies
+Data Import
 
-pip install -r requirements.txt
+Data exploration
 
+Data cleaning
 
-Run the Jupyter Notebook
+Connection to SQL Database
 
-jupyter notebook
+Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server
 
+Create a database in SQL
 
-Set up PostgreSQL
+Run Python code to load data into SQL database
 
-Create a database
+Open customer_behavior_sql_queries.sql
 
-Load the cleaned dataset
+Answer Business Questions using SQL Queries
 
-Run SQL scripts provided in the /sql folder
+Connect the SQL Database to Power BI
 
-View Dashboards
+Open customer_behavior_dashboard.pbix
 
-Open the dashboard file or follow the provided link (if hosted)
+Create interactive dashboard in Power BI
 
-Project Structure
-├── data/
-├── notebooks/
-├── sql/
-├── dashboards/
-├── reports/
-├── requirements.txt
-└── README.md
+Create Project Report and Presentation
 
-Author
+Create project report
 
-Rick Dey Sarkar
-Data Analyst | SQL | Python | Data Visualization
+Build presentation deck using Gamma AI
